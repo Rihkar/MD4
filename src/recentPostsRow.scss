@@ -1,0 +1,52 @@
+.row--3{
+    background-image: url(assets/images/Rectangle\ 23.png);
+    padding: 50px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .row--3__box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    }
+    .row--3__box-text{
+      display: flex;
+      text-align: start;  
+    }
+    .row--3__middle-text{
+      display: flex;
+      justify-content: space-around;
+      font-family: 'Heebo', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .row--3__box-text--title{
+    font-family: 'Heebo', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    }
+    
+    .row--3__box-text--paragraph{
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    }
+    
+    .random-line{
+      border-bottom: 1px solid black;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }

@@ -1,0 +1,49 @@
+.row--2{
+    padding: 100px 100px 60px 100px;
+  }
+  
+  .header-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-right: 75px;
+  }
+  
+  .header-left{
+    display: flex;
+    max-height: 243px;
+    
+  }
+  
+  
+  .header-right__top{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: 'Heebo', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  }
+  
+  .header-right__bottom{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px; 
+  }
+  .header-right__button{
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0px;
+  padding: 10px 15px;
+  background-color:  #FF6464;
+  border: 1px solid  #FF6464;;
+  color: white;
+  }
